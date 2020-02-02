@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:text="This app will connect your Android device any OS version to Raspberry Pi3 \n\nYou will need to install Blue manager in the Pi3: sudo apt-get install bluetooth bluez blueman\n
+Pair you mobile device and the Pi3 using Blue prior test the app.\n\n
+Prior execute, please run a terminal window on the Pi and get your MAC address: sudo hciconfig.\n\n
+Then download and extract to your Pi the following Python scrip at: www.crhostservices.com/btpython/btpi3_receiver.rar\n\n
+Execute the script from the folder you saved it: sudo python btpi3_receiver.py\n\n
+Now go back to the app main screen and select your Pi3 mac address, you should be connected shortly to the Pi.\n\n
+Enter data to send to the Pi3 either by typing or using voice commands, once sent you will get the same data replied from the pi. Type/Say 'exit to stop the connection. \n\n
+You can modify the script as required, enjoy Marco C.
+"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:scrollbars="vertical"/>
+</LinearLayout>

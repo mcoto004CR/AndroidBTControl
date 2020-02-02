@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pi3 Bluetooth Manager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cannot_connect">Click on any Pi3 device below to connect</string>
+
+</resources>
